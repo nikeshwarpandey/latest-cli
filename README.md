@@ -43,7 +43,7 @@ Clone the repository:
 
 bash
 Copy
-git clone https://github.com/yourusername/latest-cli.git
+git clone https://github.com/nikeshwarpandey/latest-cli.git
 Install dependencies:
 
 bash

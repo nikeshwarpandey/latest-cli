@@ -1,4 +1,4 @@
-# My CLI Tool
+# Latest CLI Tool
 
 This is a simple Node.js CLI tool that provides basic commands to interact with. It is published as an npm package and can be installed globally to run commands from the terminal.
 
@@ -7,7 +7,7 @@ This is a simple Node.js CLI tool that provides basic commands to interact with.
 You can install the CLI globally using npm. Run the following command in your terminal:
 
 ```bash
-npm install -g my-cli
+npm install -g latest-cli
 
 Commands
 greet <name>
@@ -17,7 +17,7 @@ Usage:
 
 bash
 Copy
-mycli greet John
+latestcli greet John
 Output:
 
 bash
@@ -30,7 +30,7 @@ Usage:
 
 bash
 Copy
-mycli add 5 10
+latestcli add 5 10
 Output:
 
 bash
@@ -43,7 +43,7 @@ Clone the repository:
 
 bash
 Copy
-git clone https://github.com/yourusername/my-cli.git
+git clone https://github.com/yourusername/latest-cli.git
 Install dependencies:
 
 bash

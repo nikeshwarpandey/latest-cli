@@ -1,7 +1,14 @@
-#! /usr/bin/env node
-
+#!/usr/bin/env node
+console.log('Hello from Latest CLI!');
 const {program} = require('commander');
 
+program
+  .name('latestcli')
+  .version('1.0.0')
+  .description('A CLI tool for demonstration purposes')
+  .command('hello', 'Prints a hello message')
+  .parse(process.argv);
+  
 //command 1: greet
 program
     .command('greet <name>')
